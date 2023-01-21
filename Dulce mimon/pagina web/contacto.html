@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - Dulce Mimón</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="imagenes/logo-dulcemimon.png" alt="logo de la empresa"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padron" placeholder="email@dominio.com">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" class="input-padron" placeholder="(xx) xxxxxxxx">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="68" rows="10" class="input-padron"></textarea>
+        <fieldset>
+                <legend class="conocernos">¿Como nos conociste?</legend>
+                <label for="radio-facebook"><input type="radio" name="contacto" value="Facebook" id="radio-facebook">Facebook</label>
+                <label for="radio-Google"><input type="radio" name="contacto" value="Google" id="radio-Google">Google</label>
+                <label for="radio-Instagram"><input type="radio" name="contacto" value="Instagram" id="radio-Instagram" checked>Instagram</label>
+                <label for="radio-otro"><input type="radio" name="contacto" value="otro" id="radio-otro">otro</label>
+        </fieldset>
+            <fieldset>
+                    <legend>¿Que tipo de evento?</legend>
+                    <select>
+                        <option value="0">Cumpleaños</option>
+                        <option value="1">Bautismo</option>
+                        <option value="2">Matrimonio</option>
+                        <option value="3">Baby Shower</option>
+                    </select>
+            </fieldset>
+                <label><input type="checkbox" checked>Le gustaría recibir novedades de nuestros trabajos?</label>
+                <input type="submit" value="Enviar formulario"  class="enviar">
+            </form>
+
+                <table> 
+                    <thead>
+                        <tr>
+                            <th colspan="2">Horarios de atención</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                        <tr>
+                            <td>Lunes a Viernes</td>
+                            <td>8am - 20pm</td>
+                        </tr>
+                        <tr>
+                            <td>Sabado</td>
+                            <td>8am - 15pm</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+        </main>
+        <footer>
+            <img src="imagenes/logo-dulcemimon.png">
+            <p class="copyright">&copy; Copyright Dulce Mimón - 2023</p>
+        </footer>
+    </body>
+</html>
