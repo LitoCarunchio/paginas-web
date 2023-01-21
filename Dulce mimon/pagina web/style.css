@@ -162,6 +162,12 @@ td, th{
 
 /* Path: style.css */
 
+.torta-encanto{
+    width: 140px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
 .video-principal{
     width: 60%;
     height: 70%;
@@ -176,6 +182,7 @@ td, th{
     color: #b61a75;
     margin: 20px;
     text-align: center;
+    clear: left;
 }
 
 .principal p{
@@ -183,6 +190,17 @@ td, th{
     font-family: 'Source Sans Pro';
     color: #87c3fc;
     margin: 20px;
+    text-align: center;
+}
+.mapa p{
+    font-size: 20px;
+    font-family: 'Lexend';
+    color: #17d8df;
+    margin: 20px;
+    text-align: center;
+}
+.mapa{
+    padding: 3em 0;
     text-align: center;
 }
 .principal strong{
