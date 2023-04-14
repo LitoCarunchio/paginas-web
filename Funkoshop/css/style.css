@@ -1,0 +1,71 @@
+body{
+    background-color: #F2F5F7;
+    font-family: 'Open Sans',Arial,sans-serif;
+
+}
+.headerPrincipal{
+    width: 1440px;
+    height: 100px;
+    position: absolute;
+    background: #30343F;
+}
+.headerPrincipal .logo img{
+    position:absolute;
+    width: 250px;
+    height: 100px;
+    left: 20px;
+}
+.headerPrincipal nav{ /*el ultimo a usar va sin punto*/
+    list-style-type:none;
+    position: absolute;
+    right: 0px;
+    padding: 40px;
+    color: #ffffff;
+}
+.headerPrincipal nav li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.headerPrincipal nav li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.bannerFunkos{
+    width: 1440px;
+    height: 100px;
+    
+}
+.footerPrincipal{
+    width: 1440px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    background: #30343F
+}
+.footerPrincipal nav img{
+    position: absolute;
+    height: 50px;
+    left: 1330px;
+    bottom: 25px;
+    display: inline-block;
+}
+.footerPrincipal nav li{
+    padding: auto;
+    margin: auto;
+    position: relative;
+    color: white;
+    bottom: -15px;
+    left: 15px;
+}
+.footerPrincipal nav li a{
+    color: white;
+    text-decoration: none;
+}
+.derechos{
+    color:white;
+    position: absolute;
+    padding: auto;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+}
